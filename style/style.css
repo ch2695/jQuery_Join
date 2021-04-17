@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/* Reset */
+* {
+    color: #222;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a                        { color: #333; }
+a:link                  { color: #444; }
+a:visited              { color: #444; }
+a:hover               { color: #555; }
+a:active               { color: #555; }
+img                     { vertical-align: middle; }
+ul                        { list-style: none; }
+/* Reset */
+
+/* Guide Line */
+div#wrap             { border: 1px solid #000; }
+/* Guide Line */
+
+/* div#wrap */
+div#wrap {
+	width: 600px;
+	padding: 20px;
+	margin: 20px auto;
+}
+/* div#wrap */
+
+/* header#header */
+header#header {
+	text-align: center;
+}
+#header div {
+	font-size: 20px;
+	margin-top: 30px;
+}
+/* header#header */
+
+/* ID, 비밀번호 입력 */
+div#wrap ul {
+	padding: 10px;
+	border: 2px solid #aaa;
+	margin: 10px auto;
+}
+
+div#wrap ul li {
+	font-size: 20px;
+	line-height: 24px;
+	padding: 2px 0;
+/*	border: 1px solid #ddd;*/
+	margin: 4px 0;
+	display: flex;
+}
+
+/*#wrap li span {
+	border: 1px solid #08f;
+}*/
+
+#wrap li span:first-child {
+	width: 180px;
+	text-align: right;
+	padding-right: 20px;
+}
+
+#wrap li span:last-child {
+	padding-left: 6px;
+	flex: 1;
+}
+
+#wrap  li span input:first-child {
+	width: 180px;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+}
+
+#wrap li:last-child {
+	justify-content: center;
+}
+
+#wrap li:last-child button {
+	font-size: 20px;
+	padding: 4px 16px;
+	margin: 6px;
+}
+
+	/* ID 중복 메시지 출력 */
+span#idChkMsg,
+span#pwChkMsg {
+	width: 160px;
+    color: #f30;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 60px;
+    display: inline-block;
+}
+
+span#idChkMsg::before,
+span#pwChkMsg::before {
+	content: " * ";
+}
+	/* ID 중복 메시지 출력 */
+
+/* ID, 비밀번호 입력 */
+
+/* 비밀번호 보기 */
+#wrap li span input[type=checkbox]+span{
+	font-size: 16px;
+	padding-left: 0;
+}
+/* 비밀번호 보기 */
+
+
+
+
+
+
+
+

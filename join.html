@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>회원가입</title>
+	<link rel="stylesheet" href="style/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="script/script.js"></script>
+</head>
+
+<body>
+
+	<div id="wrap">
+
+		<form action="htts://www.naver.com">
+			<header id="header">
+				<h1>회원가입</h1>
+				<div>(점검용 가입ID : test01. guest, member03)</div>
+			</header>
+
+			<ul>
+				<li>
+					<span>ID</span>
+					<span>
+						<input type="text" name="uID" maxlength="20" id="uID">
+						<!--<span></span>-->
+					</span>
+				</li>
+				<li>
+					<span>비밀번호</span>
+					<span>
+						<input type="password" name="uPW" maxlength="20" class="uPW" id="uPW">
+						<input type="checkbox">
+						<span>비밀번호 보기</span>
+					</span>
+				</li>
+				<li>
+					<span>비밀번호 확인</span>
+					<span>
+						<input type="password" maxlength="20" class="uPW" id="uPW_Re">
+					</span>
+				</li>
+				<li>
+					<button type="reset">입력취소</button>
+					<button type="button">가입하기</button>
+				</li>
+			</ul>
+		</form>
+
+	</div> <!-- div#wrap -->
+
+</body>
+
+</html>
